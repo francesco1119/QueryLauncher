@@ -21,4 +21,5 @@ As if life wasn't complicated enough there are [2 versions](https://stackoverflo
 2) [The SqlServer module](https://docs.microsoft.com/en-us/powershell/module/sqlserver/invoke-sqlcmd?view=sqlserver-ps): where `-Credentials` parameter is **available.**
 
 We are going to use the second one so you just need to run `Install-Module -Name SqlServer -AllowClobber`
+
 Make sure to include the `-AllowClobber` switch. It's a dumb-installer, and if you leave off the switch it will download the ~24MB package and then fail because it's overwriting the database engine version.
