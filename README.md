@@ -28,7 +28,7 @@ How to use it
 ------
 
 1) Paste a list of servers into `Servers.txt`, one per line and avoid blank lines
-2) Pasteyour SQL queries into the `Queries` folder using the file extension `.sql`
+2) Paste your SQL queries into the `Queries` folder using the file extension `.sql`. In the `Queries` folder you will find 14 queries which are the [Glenn Berry's](https://sqlserverperformance.wordpress.com/2012/07/08/sql-server-2012-diagnostic-information-queries-july-2012/) [Diagnostic Information Queries 2012](https://github.com/ktaranov/sqlserver-kit/blob/master/Scripts/SQL%20Server%202012%20Diagnostic%20Information%20Queries.sql); you can replace them with your preferred queries
 3) Run QueryLauncer.ps1
 4) QueryLauncher will create a CSV for every query and merge them into a single Excel file
 
