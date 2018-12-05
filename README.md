@@ -14,7 +14,7 @@ A PowerShell query launcher for SQL Server Data Warehouse
 
 
 How to Install
-======
+------
 
 As if life wasn't complicated enough there are [2 versions](https://stackoverflow.com/questions/51622424/powershell-invoke-sqlcmd-with-get-credential-doesnt-work) of `Invoke-Sqlcmd`:
 - [The Database Engine](https://docs.microsoft.com/en-us/sql/database-engine/invoke-sqlcmd-cmdlet?view=sql-server-2014):  where `-Credentials` parameter is **not available.**
