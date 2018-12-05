@@ -5,7 +5,7 @@
 <a href="https://github.com/francesco1119/QueryLauncher/network"><img alt="network" src="https://img.shields.io/github/forks/francesco1119/QueryLauncher.svg"></a>
 <a href="https://github.com/francesco1119/QueryLauncher/stargazers"><img alt="stargazers" src="https://img.shields.io/github/stars/francesco1119/QueryLauncher.svg"></a>
 <a href="https://github.com/francesco1119/QueryLauncher/blob/master/LICENSE"><img alt="LICENSE" src="https://img.shields.io/github/license/francesco1119/QueryLauncher.svg"></a>
-<a href="https://github.com/francesco1119/QueryLauncher"><img alt="LICENSE" src="https://img.shields.io/pypi/pyversions/QueryLauncher.svg"></a>
+<a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Ffrancesco1119%2FQueryLauncher"><img alt="TWITTER" src="https://img.shields.io/twitter/url/https/github.com/francesco1119/QueryLauncher.svg?style=social"></a>
 </p>
 </p>
 
