@@ -36,9 +36,16 @@ How to use it
 Troubleshooting
 ------
 
-If you receive an error the main causes are 2: 
-- you have multiple queries in the same `.sql` file 
-- you have a query with the same column mentioned twice
+If you have a query with the same column mentioned twice you will receive this error:
+```
+invoke-sqlcmd : Duplicate column names are not permitted in SQL PowerShell. To repeat a column, use a column alias for the duplicate column in the format Column_Name AS New_Name.
+At C:\Users\FrancescoM\Desktop\CSV\QueryLauncher.ps1:30 char:15
++ ... $oresults = invoke-sqlcmd -ServerInstance $Server -Database $Database ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SyntaxError: (:) [Invoke-Sqlcmd], SqlPowerShellSqlExecutionException
+    + FullyQualifiedErrorId : DuplicateColumnNameErrorMessage,Microsoft.SqlServer.Management.PowerShell.GetScriptCommand
+```
+...so remove the duplicate columns
 
 Future developent
 ------
