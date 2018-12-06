@@ -55,7 +55,6 @@ Future developent
 
 On spare time my TODO list is:
 
-* Write a better Troubleshooting
-* Create a video or a GIF to explain how it works 
+* Eventually make a video
 
 **Please if you have requests drop me a line**
