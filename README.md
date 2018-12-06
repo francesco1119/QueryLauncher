@@ -32,6 +32,9 @@ How to use it
 3) Run QueryLauncer.ps1
 4) QueryLauncher will create a CSV for every query and merge them into a single Excel file
 
+<p align="center">
+<img alt="Fantail" src="https://github.com/francesco1119/QueryLauncher/blob/master/QueryLauncher.gif" />
+<p align="center">
 
 Troubleshooting
 ------
