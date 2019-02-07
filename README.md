@@ -35,9 +35,12 @@ How to use it
 <p align="center">
 <img alt="Fantail" src="https://github.com/francesco1119/QueryLauncher/blob/master/QueryLauncher.gif" />
 <p align="center">
+  
 <div align="center">
   <a href="https://www.youtube.com/watch?v=DzdFx4tpox8&ab_channel=FrancescoMantovani"><img src="https://www.youtube.com/watch?v=DzdFx4tpox8/0.jpg" alt="QueryLauncher"></a>
 </div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DzdFx4tpox8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Troubleshooting
 ------
