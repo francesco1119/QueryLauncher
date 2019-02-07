@@ -53,6 +53,6 @@ Future developent
 
 On spare time my TODO list is:
 
-* Eventually make a video
+* Error catch
 
 **Please if you have requests drop me a line**
