@@ -40,7 +40,12 @@ How to use it
   <a href="https://www.youtube.com/watch?v=DzdFx4tpox8&ab_channel=FrancescoMantovani"><img src="https://www.youtube.com/watch?v=DzdFx4tpox8/0.jpg" alt="QueryLauncher"></a>
 </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DzdFx4tpox8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/DzdFx4tpox8" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
+
 
 Troubleshooting
 ------
