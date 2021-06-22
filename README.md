@@ -38,7 +38,7 @@ $SqlInstances = 'ServerName1','ServerName2','ServerName3'
 3) Run QueryLauncer.ps1
 4) QueryLauncher will run all queries one by one and will save the results in a file with server name and date. Each query output will be stored on a different Excel tab
 
-[![IMAGE ALT TEXT HERE](https://github.com/francesco1119/QueryLauncher/blob/master/YoutubeVideo.png?raw=true)](https://youtu.be/DzdFx4tpox8)
+[![IMAGE ALT TEXT HERE](https://github.com/francesco1119/QueryLauncher/blob/master/YoutubeVideo.png?raw=true)](https://youtu.be/bqyoCXJYkI8)
 
 Troubleshooting
 ------
