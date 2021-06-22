@@ -16,21 +16,27 @@ A PowerShell query launcher for SQL Server Data Warehouse
 How to Install
 ------
 
-As if life wasn't complicated enough there are [2 versions](https://stackoverflow.com/questions/51622424/powershell-invoke-sqlcmd-with-get-credential-doesnt-work) of `Invoke-Sqlcmd`:
-- [The Database Engine](https://docs.microsoft.com/en-us/sql/database-engine/invoke-sqlcmd-cmdlet?view=sql-server-2014):  where `-Credentials` parameter is **not available.**
-- [The SqlServer module](https://docs.microsoft.com/en-us/powershell/module/sqlserver/invoke-sqlcmd?view=sqlserver-ps): where `-Credentials` parameter is **available.**
+I finally had the time to re-write this tool and it now takes only 20 lines of code, this thanks to:
 
-We are going to use the second one so you just need to run `Install-Module -Name SqlServer -AllowClobber`
+`Install-Module -Name dbatools`
 
-Make sure to include the `-AllowClobber` switch. It's a dumb-installer, and if you leave off the switch it will download the ~24MB package and then fail because it's overwriting the database engine version.
+`Install-Module -Name ImportExcel`
+
+Once you installed both you are good to go
 
 How to use it 
 ------
 
-1) Paste a list of servers into `Servers.txt`, one per line and avoid blank lines
-2) Paste your SQL queries into the `Queries` folder using the file extension `.sql`. In the `Queries` folder you will find 14 queries which are the [Glenn Berry's](https://sqlserverperformance.wordpress.com/2012/07/08/sql-server-2012-diagnostic-information-queries-july-2012/) [Diagnostic Information Queries 2012](https://github.com/ktaranov/sqlserver-kit/blob/master/Scripts/SQL%20Server%202012%20Diagnostic%20Information%20Queries.sql); you can replace them with your preferred queries
+1) Paste a list of servers into the very first variable of the script: 
+
+```
+# Put your list of SQL Server estate here
+$SqlInstances = 'ServerName1','ServerName2','ServerName3'
+```
+
+2) Paste your SQL queries into the `Queries` folder. In the `Queries` folder you will find 10 queries which are the [Glenn Berry's](https://sqlserverperformance.wordpress.com/2012/07/08/sql-server-2012-diagnostic-information-queries-july-2012/) [Diagnostic Information Queries 2012](https://github.com/ktaranov/sqlserver-kit/blob/master/Scripts/SQL%20Server%202012%20Diagnostic%20Information%20Queries.sql); you can replace them with your preferred queries
 3) Run QueryLauncer.ps1
-4) QueryLauncher will create a CSV for every query and merge them into a single Excel file
+4) QueryLauncher will run all queries one by one and will save the results in a file with server name and date. Each query output will be stored on a different Excel tab
 
 [![IMAGE ALT TEXT HERE](https://github.com/francesco1119/QueryLauncher/blob/master/YoutubeVideo.png?raw=true)](https://youtu.be/DzdFx4tpox8)
 
